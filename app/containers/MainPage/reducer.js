@@ -2,7 +2,10 @@
 import produce from 'immer';
 import { LOAD_EVENTS } from './constants';
 
-export const initialState = {};
+export const initialState = {
+  featuredEvents: [],
+  events: [],
+};
 
 /* eslint-disable default-case, no-param-reassign */
 const mainPageReducer = (state = initialState, action) =>
