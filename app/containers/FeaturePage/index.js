@@ -1,8 +1,4 @@
-/*
- * FeaturePage
- *
- * List all the features
- */
+/* FeaturePage * List all the features */
 import React from 'react';
 import { Helmet } from 'react-helmet';
 import { FormattedMessage } from 'react-intl';

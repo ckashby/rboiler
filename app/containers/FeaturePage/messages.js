@@ -1,8 +1,4 @@
-/*
- * FeaturePage Messages
- *
- * This contains all the text for the FeaturePage component.
- */
+/* FeaturePage Messages */
 import { defineMessages } from 'react-intl';
 
 export const scope = 'boilerplate.containers.FeaturePage';
@@ -14,7 +10,7 @@ export default defineMessages({
   },
   scaffoldingHeader: {
     id: `${scope}.scaffolding.header`,
-    defaultMessage: 'Quick scaffolding',
+    defaultMessage: 'Very quick scaffolding',
   },
   scaffoldingMessage: {
     id: `${scope}.scaffolding.message`,

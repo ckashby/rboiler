@@ -1,6 +1,4 @@
-/**
- * Language Generator
- */
+/* Language Generator */
 const fs = require('fs');
 const { exec } = require('child_process');
 
